@@ -1,0 +1,60 @@
+@import url('style.css');
+@import url('nav.css');
+
+.header{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 2vh;
+    flex-grow: 1;
+    margin: 2vh 0;
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 2vh;
+    flex-grow: 8;
+    flex-direction: column;
+    gap: 5vh;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 2vh;
+}
+
+.content input{
+    min-width: 20vw;
+    max-width: 40vw;
+    padding: 1vh 1vw;
+}
+
+
+button{
+    padding: 1vh;
+    background-color: rgb(18, 11, 213);
+    color: aliceblue;
+    border: none;
+    font-size: 2vh;
+    min-width: 20vh;
+    border-radius: 1vh;
+}
+
+button:hover{
+    background-color: rgb(16, 11, 160);
+    color: aliceblue;
+}
+
+button:active{
+    background-color: rgb(10, 7, 112);
+    color: aliceblue;
+}
+
+#school{
+    max-width: 80vw;
+}

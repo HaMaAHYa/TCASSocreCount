@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../public/CSS/calTool.css">
+    <script src="../public/app.js"></script>
+    <title>นับคะแนน TCAS</title>
+</head>
+<body>
+    <div class="nav">
+        <div><a href="#">หน้าหลัก</a></div>
+        <div><a href="#">สายสุขภาพ</a></div>
+        <div><a href="#">สายวิศวกรรม</a></div>
+    </div>
+    <div class="header"><h1>คำนวนคะแนนสอบเข้าสายสุขภาพ</h1></div>
+    <div class="body">
+        <div class="content">
+            <div><p>ภาษาอังกฤษ</p><input type="text" placeholder="คะแนนวิชาภาษาอังกฤษ" value="75"></div>
+            <div><p>คณิตศาสตร์</p><input type="text" placeholder="คะแนนวิชาคณิตศาสตร์" value="60"></div>
+            <div><p>ภาษาไทย</p><input type="text" placeholder="คะแนนวิชาภาษาไทย" value="80"></div>
+            <div><p>สังคม</p><input type="text" placeholder="คะแนนวิชาสังคม" value="70"></div>
+            <div><p>ฟิสิกส์</p><input type="text" placeholder="คะแนนวิชาฟิสิกส์" value="60"></div>
+            <div><p>เคมี</p><input type="text" placeholder="คะแนนวิชาเคมี" value="80"></div>
+            <div><p>ชีวะ</p><input type="text" placeholder="คะแนนวิชาชีวะ" value="80"></div>
+            <div><p>จริยธรรม</p><input type="text" placeholder="คะแนนพาทย์จริยธรรม" value="95"></div>
+            <div><p>เชื่อมโยง</p><input type="text" placeholder="คะแนนพาทย์เชื่อมโยง" value="95"></div>
+            <div><p>เชาว์</p><input type="text" placeholder="คะแนนพาทย์เชาว์" value="65"></div>
+        </div>
+        <div><button onclick="cal()">คำนวนคะแนน</button></div>
+        <div id="summary"></div>
+        <div id="school"></div>
+    </div>
+</body>
+</html>
